@@ -1,0 +1,159 @@
+
+ /* I imported this font style  from  google fonts   */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+ 
+ /*   resets and creates a consistent and predictable layout across different browsers. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  /*   this  styles the body of the html   */
+body { 
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  
+  
+}
+
+/*   this targets and styles all numeric listing and bullet points   */
+li{
+  font-family: "Open Sans", sans-serif;
+margin-bottom: 12px;
+
+
+}
+
+/*  making sure the images are of the same lenght and width */
+img{
+height: 280px;
+width: 390px;
+margin-left: 350px;
+
+}
+
+/* this code styles the navigation link   */
+nav {
+    width: 300px;
+    background-color:#1B262C;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-style: solid gray;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: gray;
+   
+  
+    
+    
+   
+  }
+
+ /*  styles the contents inside the navigation link */
+  nav a {
+
+    font-size: 20px;
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: color 0.2s ease-in-out;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    text-align: left;
+    font-family: cursive;
+  
+    
+    
+   
+   
+
+
+  }
+  /*   this styles a specific header in the navigation link */
+  .highlight{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  
+
+  }
+
+ /*  this  targets and style all numeric listing  */
+  ol{
+    color: #000000;
+  
+  }
+
+
+
+
+   /*   this styles the contents in navigation link when we hover around it  */
+  nav a:hover{
+    background-color:white;
+    color:black ;
+    
+
+
+  } 
+  
+  /*   this styles the contents in navigation link when we hover and click the contents  */
+nav a:hover:active{
+    color: aqua;
+
+    
+
+}
+
+/*   this styles the main section of the body  */
+main {
+    flex: 1;
+    padding: 40px;
+    background-color: #f4f4f9;
+}
+
+  main section {
+    margin-bottom: 50px;
+  }
+
+  main h2 {
+    color: #333;
+    margin-bottom: 10px;
+ 
+  
+  }
+
+  /*   this  targets and styles all the paragraphs in the main */
+  main p {
+   line-height: 1.4;
+    color: #131212;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+  
+
+  }
+
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    }
+   
+    
+   
